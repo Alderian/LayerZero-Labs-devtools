@@ -222,7 +222,7 @@ pnpm hardhat lz:oft-adapter:solana:create --eid 40168 --program-id <PROGRAM_ID> 
 pnpm hardhat lz:oft:solana:create --eid 40168 --program-id <PROGRAM_ID> --mint <TOKEN_MINT> --token-program <TOKEN_PROGRAM_ID>
 ```
 
-:information_source:  You can use OFT Mint-And-Burn Adapter if you want to use an existing token on Solana. For OFT Mint-And-Burn Adapter, tokens will be burned when sending to other chains and minted when receiving from other chains. Note that before attempting any cross-chain transfers, you must transfer the Mint Authority to the OFT Store address for `lz_receive` to work, as that is not handled in the script. You cannot use this option if your token's Mint Authority has been renounced.
+:information_source: You can use OFT Mint-And-Burn Adapter if you want to use an existing token on Solana. For OFT Mint-And-Burn Adapter, tokens will be burned when sending to other chains and minted when receiving from other chains. Note that before attempting any cross-chain transfers, you must transfer the Mint Authority to the OFT Store address for `lz_receive` to work, as that is not handled in the script. You cannot use this option if your token's Mint Authority has been renounced.
 
 ### Update [layerzero.config.ts](./layerzero.config.ts)
 
